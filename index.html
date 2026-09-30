@@ -93,6 +93,17 @@
       .hero-copy{width:min(90%,580px)}
     }
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.intro,.language{transition:none}}
+
+    	.hero::after {
+    background: linear-gradient(
+    180deg,
+    transparent 0%,
+    transparent 20%,
+    rgba(245, 242, 237, .4) 40%,
+    rgba(245, 242, 237, .85) 90%,
+    #f5f2ed 100%
+     );
+    }
   </style>
 </head>
 <body>
